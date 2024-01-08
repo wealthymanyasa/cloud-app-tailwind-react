@@ -1,7 +1,7 @@
-
+import bgImg from '../assets/cyber-bg.png'
 const Hero = () => {
     return (
-        <div className="w-full h-screen flex flex-col justify-between bg-slate-200 ">
+        <div id='home' className="w-full h-screen flex flex-col justify-between bg-slate-200 ">
 
             <div className="grid md:grid-cols-2 m-auto max-w-[1240px]">
                 <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
@@ -11,7 +11,7 @@ const Hero = () => {
                     <button className="py-3 px-6 sm:w-[60%] my-4">Get Started</button>
                 </div>
                 <div>
-                    <img src="/obertboy.png" className="w-full" alt="heroimage" />
+                    <img src={bgImg} className="w-full" alt="heroimage" />
                 </div>
 
 
